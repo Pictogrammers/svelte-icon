@@ -1,0 +1,39 @@
+{
+	"name": "@jamescoyle/svelte-icon",
+	"version": "0.1.0",
+	"description": "Icon component for Svelte",
+	"main": "lib/svg-icon.svelte",
+	"directories": {
+		"lib": "lib",
+		"test": "tests"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JamesCoyle/svelte-icon.git"
+	},
+	"keywords": [
+		"Vue",
+		"icon",
+		"mdi",
+		"pictogrammers"
+	],
+	"author": "Pictogrammers, James Coyle",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/JamesCoyle/svelte-icon/issues"
+	},
+	"homepage": "https://github.com/JamesCoyle/svelte-icon#readme",
+	"devDependencies": {
+		"@babel/core": "^7.11.6",
+		"@babel/plugin-transform-runtime": "^7.11.5",
+		"@babel/preset-env": "^7.11.5",
+		"@testing-library/svelte": "^3.0.0",
+		"babel-jest": "^26.5.2",
+		"jest": "^26.5.2",
+		"svelte": "^3.29.0",
+		"svelte-jester": "^1.1.5"
+	}
+}
