@@ -39,6 +39,6 @@
 	}
 </style>
 
-<svg width={sizeValue} height={sizeValue} viewBox={viewboxValue} style="--sx: {sx}; --sy: {sy}; --r: {r}">
+<svg width={sizeValue} height={sizeValue} viewBox={viewboxValue} style="--sx: {sx}; --sy: {sy}; --r: {r}" {...$$restProps}>
 	<path d={path} />
 </svg>
